@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.text-container {
+    width: 50%;
+}
+
+.header-container img {
+    width: 450px;
+    padding-top: 50px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.shop-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
