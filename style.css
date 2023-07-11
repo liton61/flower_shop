@@ -7,19 +7,18 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-around;
+    gap: 100px;
     background: rgba(229, 84, 115, 0.10);
 }
 
 .text-container {
-    width: 50%;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .header-container img {
     width: 450px;
     padding-top: 50px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .header-title {
@@ -32,7 +31,7 @@ body {
 
 .header-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 0px;
@@ -49,8 +48,6 @@ body {
     margin-top: 30px;
     margin-bottom: 50px;
 }
-
-/* header part end */
 
 .featured-title {
     color: #272727;
@@ -69,7 +66,7 @@ body {
 
 .flower-container {
     display: flex;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -89,24 +86,24 @@ body {
 #card-one {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 100px 30px 0px 30px;
+    padding-top: 50px;
 }
 
 #card-two {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 60px 30px 0px 30px;
+    padding-top: 50px;
 }
 
 #card-three {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 60px 30px 0px 30px;
+    padding-top: 50px;
 }
 
 .flower-name {
     display: flex;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     justify-content: space-around;
 }
@@ -121,13 +118,13 @@ body {
 
 .service-container {
     display: flex;
-    width: 1160px;
+    width: 1000px;
     margin: 0 auto;
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .service-card {
@@ -209,7 +206,7 @@ body {
 
 .images-container {
     display: flex;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     justify-content: space-around;
 }
@@ -218,6 +215,49 @@ body {
     width: 250px;
     border-radius: 5px;
     margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.selling-text-container {
+    color: #272727;
+    text-align: center;
+}
+
+.selling-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 130px;
+    margin-bottom: 0px;
+}
+
+.selling-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.most-selling-images-container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+hr {
+    width: 1000px;
+}
+
+.most-selling-images-container img {
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
 }
 
 .latest-deals {
@@ -265,4 +305,39 @@ body {
     padding: 17px 34px;
     margin-left: 10px;
     margin-top: 50px;
+}
+
+.footer-container {
+    text-align: center;
+    background-color: #272727;
+    margin-top: 130px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 130px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 130px;
+
 }
